@@ -1,4 +1,4 @@
-#!/usr/bin/evn ruby
+#!/usr/bin/env ruby
 require 'fileutils'
 
 project_name = ARGV.first
