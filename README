@@ -1,0 +1,6 @@
+This repo is just a place for me to store some ruby tools. So far I have one, but it's useful.
+
+clip.rb
+Usage clip.rb project_name
+Command line project creater. Running clip.rb creates a simple command line style ruby project in the current directory.
+It includes a directory structure for rspec.
