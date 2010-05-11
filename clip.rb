@@ -12,8 +12,8 @@ require '#{project_name}'
 EOF
 
 lib_helper = <<EOF
-Dir.open('.').entries.select {|name| name =~ /^.*\.rb$/ }.each do |file|
-  require file
+Dir.open("lib/#{project_name}").entries.select {|name| name =~ /^.*\.rb$/ }.each do |file|
+  require ['lib', project_name, file].join('/')
 end
 EOF
 
